@@ -24,7 +24,7 @@ app.use("/api/user", userRoute)
 app.use("/api/todo", todoRoute)
 
 
-app.listen(process.env.PORT || 4800, (e) => console.log(`server running on prot http://localhost:${process.env.PORT || 4800}`.bgBlue))
+app.listen(process.env.PORT ||5000, (e) => console.log(`server running on prot http://localhost:${process.env.PORT || 4800}`.bgBlue))
 
 
 
